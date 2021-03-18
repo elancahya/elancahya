@@ -1,16 +1,29 @@
-### Hi there 👋
+package pbotugas1;
 
-<!--
-**elancahya/elancahya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+import java.util.Scanner;
 
-Here are some ideas to get you started:
+public class PBOTUGAS1 {
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  public static void main(String[] args) {
+
+  Scanner Elan = new Scanner(System.in);
+
+  double galon,liter;
+
+  System.out.print("masukan jumlah galon:");
+
+  galon = Elan.nextDouble();
+
+  
+
+  liter = galon * 3.785;
+
+  
+
+  System.out.print("jumlah liter = "+liter);
+
+  
+
+  }
+
+}
